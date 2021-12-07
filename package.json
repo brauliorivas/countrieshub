@@ -1,0 +1,43 @@
+{
+  "name": "countriesapi",
+  "version": "1.0.0",
+  "description": "website to retrieve data from API about countries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "api",
+    "react"
+  ],
+  "author": "Braulio Rivas Abad",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.103",
+    "@types/react": "^17.0.36",
+    "css-loader": "^6.5.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.1",
+    "swc-loader": "^0.1.15",
+    "terser-webpack-plugin": "^5.2.4",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.0.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

@@ -1,0 +1,40 @@
+.back {
+    text-decoration: none;
+
+    .back__button {
+        height: 30px;
+        width: 100px;
+        background-color: var(--background-color);
+        border: none;
+        box-shadow: var(--box-shadow);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 7.5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .fas {
+            color: var(--header-title-color);
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-weight: 300;
+            margin: 0;
+            margin-left: 10px;
+            margin-top: 2px;
+            color: var(--header-title-color);
+        }
+    }
+    
+}
+
+.back:hover {
+    cursor: auto;
+}
+
+.back__button:hover {
+    cursor: pointer;
+}

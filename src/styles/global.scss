@@ -1,0 +1,22 @@
+// :root {
+//     --dark-blue: hsl(209, 23%, 22%);
+//     --very-dark-blue__dark-mode: hsl(207, 26%, 17%);
+//     --very-dark-blue__light-mode: hsl(200, 15%, 8%);
+//     --dark-grey: hsl(0, 0%, 52%);
+//     --very-light-grey: hsl(0, 0%, 98%);
+//     --white: hsl(0, 0%, 100%);
+//     --black: hsl(0, 0%, 0%);
+// }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+}

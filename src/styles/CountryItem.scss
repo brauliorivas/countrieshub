@@ -1,0 +1,56 @@
+.country-item-link {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: var(--header-title-color);
+
+    .country-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+
+        .country-item__description {
+            width: 100%;
+            height: auto;
+            padding-top: 15px;
+            padding-bottom: 25px;
+            padding-left: 10%;
+
+            h3 {
+                font-size: 1.5rem;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.country-item-link:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .country-item-link {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }   
+}

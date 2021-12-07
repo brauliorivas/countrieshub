@@ -1,0 +1,27 @@
+.searching-bar {
+    display: flex;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.content {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .searching-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

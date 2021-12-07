@@ -1,0 +1,73 @@
+.filter-menu__button {
+    width: 50%;
+    height: 40px;
+    background-color: var(--background-color);
+    border: none;
+    margin-top: 20px;
+    margin-left: 7.5%;
+    box-shadow: var(--box-shadow);
+    max-width: 200px;
+    color: var(--header-title-color);
+    
+    .fa-angle-down {
+        margin-left: 10px;
+    }
+
+    .fa-angle-down:hover {
+        cursor: pointer;
+    }
+}
+
+.filter-menu__options {
+    position: absolute;
+    top: 130px;
+    z-index: 10;
+    margin-left: 7.5%;
+    width: 50%;
+    height: auto;
+    max-width: 200px;
+    margin-top: 10px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+
+
+    ul {
+        list-style-type: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        li {
+            color: var(--header-title-color);
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            margin-left: 20%;
+        }
+
+        li:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .filter-menu__button {
+        width: 25%;
+        margin: 0;
+        margin-right: 7.5%;
+
+        .fa-angle-down {
+            margin-left: 20%;
+        }
+    }
+
+    .filter-menu__options {
+        position: absolute;
+        margin-right: 7.5%;
+        margin-left: auto;
+        left: calc(100% - 200px - 7.5%);
+        top: 70px;
+    }
+    
+}

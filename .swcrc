@@ -1,0 +1,36 @@
+[
+  {
+    "test": ".tsx?$",
+    "minify": true,
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",
+        "tsx": true,
+        "decorators": false,
+        "dynamicImport": true
+      },
+      "transform": {
+        "react": {
+          "refresh": true
+        }
+      }
+    }
+  },
+  {
+    "test": ".jsx?$",
+    "minify": true,
+    "jsc": {
+      "parser": {
+        "syntax": "ecmascript",
+        "jsx": true,
+        "decorators": false,
+        "dynamicImport": true
+      },
+      "transform": {
+        "react": {
+          "refresh": true
+        }
+      }
+    }
+  }
+]
